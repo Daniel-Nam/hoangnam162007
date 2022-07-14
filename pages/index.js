@@ -38,7 +38,7 @@ function Home() {
 				<a
 					key={index}
 					href={item.url}
-					className='flex items-center justify-between p-2 border bg-slate-100 rounded-sm hover:scale-105 transition'>
+					className='flex items-center justify-between p-2 border rounded-sm hover:scale-105 transition'>
 					{item.icon}
 					<span className='font-semibold'>{item.text}</span>
 				</a>
@@ -46,14 +46,14 @@ function Home() {
 
 			<a
 				href='https://zalo.me/84767488632'
-				className='flex items-center justify-between p-2 border bg-slate-100 rounded-sm hover:scale-105 transition'>
+				className='flex items-center justify-between p-2 border rounded-sm hover:scale-105 transition'>
 				<Image src='/images/zalo.png' width={30} height={30} alt='' />
 				<span className='font-semibold'>Hoàng Nam - Máy tính</span>
 			</a>
 
 			<a
 				href='https://zalo.me/0335574737'
-				className='flex items-center justify-between p-2 border bg-slate-100 rounded-sm hover:scale-105 transition'>
+				className='flex items-center justify-between p-2 border rounded-sm hover:scale-105 transition'>
 				<Image src='/images/zalo.png' width={30} height={30} alt='' />
 				<span className='font-semibold'>Hoàng Nam</span>
 			</a>
