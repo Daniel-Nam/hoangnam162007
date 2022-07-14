@@ -5,10 +5,10 @@ export default function layout({ children }) {
 	return (
 		<div>
 			<Head>
-				<title>Hoàng Nam 162007</title>
+				<title>hoangnam162007</title>
 				<meta
 					name='description'
-					content='Trang chủ chính thức của Hoàng Nam 162007'
+					content='Trang chủ chính thức của hoangnam162007'
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
