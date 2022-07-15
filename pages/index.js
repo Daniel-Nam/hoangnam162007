@@ -26,11 +26,11 @@ function Home() {
 			setIsDark(true)
 		} else if (isEvening) {
 			setText('Buổi tối tốt lành')
-			setSrc('/images/evening.webp')
+			setSrc('/images/night.jpg')
 			setIsDark(true)
 		} else {
 			setText('Khò khò khò zzzzzz...')
-			setSrc('/images/night.webp')
+			setSrc('/images/sleep.jpg')
 			setIsDark(true)
 		}
 
