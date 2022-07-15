@@ -20,18 +20,15 @@ export default function Header() {
 							className='object-cover rounded-full'
 						/>
 					</div>
-					<h1 className='text-lg font-semibold'>Nguyễn Hoàng Nam</h1>
+					<h1 className='text-lg font-semibold'>Hoàng Nam</h1>
 				</div>
 
 				<div className='relative flex items-center gap-5 h-full'>
 					<ActiveLink setX={setX} setW={setW} href='/'>
 						Trang chủ
 					</ActiveLink>
-					<ActiveLink setX={setX} setW={setW} href='/about'>
-						Về tôi
-					</ActiveLink>
 					<ActiveLink setX={setX} setW={setW} href='/contact'>
-						Nhắn tin
+						Liên hệ
 					</ActiveLink>
 					<ActiveLink setX={setX} setW={setW} href='/products'>
 						Các sản phẩm
